@@ -1,3 +1,5 @@
+START _default/list.html
+<BR />
 <!doctype html>
 <html lang="{{ .Page.Language | default "en" }}">
   {{ partial "head" . }}
@@ -8,7 +10,7 @@
       <main id="site-main">
         {{ $paginator := .Paginate (.Pages) }}
         {{ range $paginator.Pages }}
-          {{ .Render "content-list" }}
+          CONTENT-LIST: {{ .Render "content-list" }}
         {{ end }}
         {{ partial "pagination" . }}
       </main>
@@ -18,3 +20,6 @@
     </div>
   </body>
 </html>
+<BR />
+END _default/list.html
+<BR />

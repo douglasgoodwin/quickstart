@@ -1,3 +1,5 @@
+START _default/content-single.html
+<BR />
 <article class="post">
   {{ .Render "header" }}
   <section id="socnet-share">
@@ -5,7 +7,11 @@
   </section>
   {{ .Render "featured" }}
   <div class="content">
-    {{ .Content }}
+    _default/content-single.html:
+    <BR />
+    TITLE: {{ .Title }}
+  <BR />
+    CONTENT: {{ .Content }}
   </div>
   <footer>
     {{ .Render "stats" }}
@@ -13,3 +19,5 @@
 </article>
 {{ .Render "comments" }}
 {{ .Render "pagination" }}
+<BR />
+END _default/content-single.html

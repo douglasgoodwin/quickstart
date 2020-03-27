@@ -1,7 +1,7 @@
 baseurl                 = "https://example.com/"
 DefaultContentLanguage  = "en"
-title                   = "Hugo Future Imperfect Slim"
-theme                   = "hugo-future-imperfect-slim"
+title                   = "Douglas Goodwin"
+theme                   = "doug-future-imperfect-slim"
 preserveTaxonomyNames   = true
 paginate                = 3
 disqusShortname         = ""
@@ -165,7 +165,7 @@ disableLanguages        = [""]
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
+  github                = "douglasgoodwin"
   gitlab                = ""
   stackoverflow         = "" # User Number
   bitbucket             = ""

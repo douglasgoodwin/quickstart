@@ -1,3 +1,5 @@
+START _default/pagination.html
+</BR>
 <div class="pagination">
   {{ if .PrevInSection }}
     <a href="{{ .PrevInSection.RelPermalink }}" class="button"><div class="previous"><div>{{ .PrevInSection.Title }}</div></div></a>
@@ -6,3 +8,5 @@
     <a href="{{ .NextInSection.RelPermalink }}" class="button"><div class="next"><div>{{ .NextInSection.Title }}</div></div></a>
   {{ end }}
 </div>
+<BR/>
+END _default/pagination.html

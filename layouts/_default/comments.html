@@ -1,3 +1,6 @@
+START _default/comments.html
+<BR/>
+
 {{ if ne .Site.DisqusShortname "" }}
     <article class="post">
         {{ template "_internal/disqus.html" . }}
@@ -9,3 +12,5 @@
       {{ .Render "staticman" }}
     </article>
 {{ end }}
+<BR/>
+END _default/comments.html
